@@ -51,7 +51,7 @@ namespace WindowsFormsApp1
             string maMA = txtFoodMa.Text;
             string tenMA = txtFoodTen.Text;
             float giabanMA = float.Parse(txtFoodGiaBan.Text);
-            string loaiMA = txtLoai.Text;
+            int.TryParse(txtLoai.Text, out int loaiMA);
             ThucDon td = new ThucDon(maMA,tenMA,giabanMA,loaiMA);
             if (dmthucdon.Them(td) == true)
             {
@@ -100,7 +100,7 @@ namespace WindowsFormsApp1
         {
             produccurrent.MaMonAn = txtFoodMa.Text.ToString();
             produccurrent.TenMonAn = txtFoodTen.Text.ToString();
-            produccurrent.LoaiMonAn = txtLoai.Text.ToString();
+            //produccurrent.LoaiMonAn = txtLoai.Text.ToString();
             produccurrent.GiaBan = float.Parse(txtFoodGiaBan.Text.ToString());
             HienThiDanhSachThucDon(dmthucdon.DSThucDon, dtgvFood);
             MessageBox.Show("Đã Cập Nhật", "Thông báo", MessageBoxButtons.OK);
@@ -116,14 +116,21 @@ namespace WindowsFormsApp1
         {
             try
             {
-                FileStream fs = new FileStream(tenFile, FileMode.Create);
-                BinaryFormatter bf = new BinaryFormatter();
-                bf.Serialize(fs, dmthucdon.DSThucDon);
-                fs.Close();
-                return true;
+                using (FileStream fs = new FileStream(tenFile, FileMode.Create))
+                {
+                    BinaryFormatter bf = new BinaryFormatter();
+                    bf.Serialize(fs, dmthucdon.DSThucDon);
+
+                    return true;
+                }
+               
+
             }
-            catch (Exception)
+            
+            catch (Exception ex)
             {
+                MessageBox.Show($"Error Type: {ex.GetType().Name}\nMessage: {ex.Message}",
+                                "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }

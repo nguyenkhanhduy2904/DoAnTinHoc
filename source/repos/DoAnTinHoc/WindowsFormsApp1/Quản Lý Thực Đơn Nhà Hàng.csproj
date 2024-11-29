@@ -67,6 +67,12 @@
     <Compile Include="frmHoaDon.Designer.cs">
       <DependentUpon>frmHoaDon.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTableDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTableDetails.Designer.cs">
+      <DependentUpon>frmTableDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmTaiKhoanKhach.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </Compile>
     <Compile Include="frmMainMenu.Designer.cs">
       <DependentUpon>frmMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputBox_tableNumber.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -94,6 +103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmHoaDon.resx">
       <DependentUpon>frmHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTableDetails.resx">
+      <DependentUpon>frmTableDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmTaiKhoanKhach.resx">
       <DependentUpon>frmTaiKhoanKhach.cs</DependentUpon>

@@ -45,3 +45,20 @@ C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\obj\Debug\Quả
 C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\obj\Debug\Qu_n L_ .A7FE00A6.Up2Date
 C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\Quản Lý Thực Đơn Nhà Hàng.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmBanAn.resources
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmHoaDon.resources
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmTaiKhoanKhach.resources
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmMainMenu.resources
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmThucDon.resources
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\Quản Lý Thực Đơn Nhà Hàng.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\Quản Lý Thực Đơn Nhà Hàng.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\Qu_n L_ .A7FE00A6.Up2Date
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmTableDetails.resources

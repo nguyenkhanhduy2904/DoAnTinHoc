@@ -7,25 +7,50 @@ using System.Threading.Tasks;
 namespace WindowsFormsApp1
 {
     [Serializable]
+
+
     internal class ThucDon
     {
+        private Dictionary<int, string> foodCategory = new Dictionary<int, string>()
+        {
+            
+            {0, "Extra" },
+            {1, "Dessert" },
+            {2, "Soft Drink"},
+            {3, "Coffee" },
+            {4, "Alcohol" },
+            {5, "Snack" },
+            {6, "Rice" },
+            {7,"Noodle" },
+            {8, "Beef" },
+            {9, "Pork" },
+            {10,"Chicken" },
+            {11,"Vegan" },
+
+
+
+        };
+
+
+
+
         private string maMA;
         private string tenMA;
         private float giabanMA;
-        private string loaiMA;
-        
+        private int loaiMA;
+
 
         public ThucDon()
         {
             this.maMA = null;
             this.tenMA = null;
             this.giabanMA = 0;
-            this.LoaiMonAn = null;
-           
+            this.LoaiMonAn = 0;
+
         }
 
 
-        public ThucDon(string maMA,string tenMA,float giabanMA,string loaiMA )
+        public ThucDon(string maMA, string tenMA, float giabanMA, int loaiMA)
         {
             this.maMA = maMA;
             this.tenMA = tenMA;
@@ -51,10 +76,20 @@ namespace WindowsFormsApp1
             get { return this.giabanMA; }
             set { this.giabanMA = value; }
         }
-        public string LoaiMonAn
+        public int LoaiMonAn
         {
             get { return this.loaiMA; }
-            set { this.loaiMA = value; }
+            set 
+            {
+                if (foodCategory.ContainsKey(value))
+                {
+                    loaiMA = value;
+                }
+                else
+                {
+                    throw new ArgumentException("Invalid food category key.");
+                }
+            }
         }
 
     }
