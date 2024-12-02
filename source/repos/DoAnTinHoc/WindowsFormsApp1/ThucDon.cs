@@ -11,7 +11,7 @@ namespace WindowsFormsApp1
 
     internal class ThucDon
     {
-        private Dictionary<int, string> foodCategory = new Dictionary<int, string>()
+        public Dictionary<int, string> foodCategory = new Dictionary<int, string>()
         {
             
             {0, "Extra" },

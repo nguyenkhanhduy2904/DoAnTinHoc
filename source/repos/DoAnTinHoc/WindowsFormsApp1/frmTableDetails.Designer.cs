@@ -34,7 +34,7 @@
             // listBox_bill
             // 
             this.listBox_bill.FormattingEnabled = true;
-            this.listBox_bill.Location = new System.Drawing.Point(526, 35);
+            this.listBox_bill.Location = new System.Drawing.Point(547, 12);
             this.listBox_bill.Name = "listBox_bill";
             this.listBox_bill.Size = new System.Drawing.Size(221, 329);
             this.listBox_bill.TabIndex = 0;

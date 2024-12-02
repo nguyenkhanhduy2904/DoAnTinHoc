@@ -37,7 +37,6 @@
             this.btnFoodAdd = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.txtFoodTen = new System.Windows.Forms.TextBox();
-            this.txtLoai = new System.Windows.Forms.TextBox();
             this.txtFoodGiaBan = new System.Windows.Forms.TextBox();
             this.txtFoodMa = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -50,6 +49,7 @@
             this.LoaiMA = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cbo_category = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvFood)).BeginInit();
@@ -150,8 +150,8 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.cbo_category);
             this.panel2.Controls.Add(this.txtFoodTen);
-            this.panel2.Controls.Add(this.txtLoai);
             this.panel2.Controls.Add(this.txtFoodGiaBan);
             this.panel2.Controls.Add(this.txtFoodMa);
             this.panel2.Controls.Add(this.label3);
@@ -172,14 +172,6 @@
             this.txtFoodTen.Name = "txtFoodTen";
             this.txtFoodTen.Size = new System.Drawing.Size(266, 20);
             this.txtFoodTen.TabIndex = 2;
-            // 
-            // txtLoai
-            // 
-            this.txtLoai.Location = new System.Drawing.Point(724, 90);
-            this.txtLoai.Name = "txtLoai";
-            this.txtLoai.Size = new System.Drawing.Size(266, 20);
-            this.txtLoai.TabIndex = 3;
-            this.txtLoai.TextChanged += new System.EventHandler(this.TextBox3_TextChanged);
             // 
             // txtFoodGiaBan
             // 
@@ -205,7 +197,7 @@
             this.label3.ForeColor = System.Drawing.Color.Olive;
             this.label3.Location = new System.Drawing.Point(3, 90);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(98, 16);
+            this.label3.Size = new System.Drawing.Size(97, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "Tên Món Ăn :";
             // 
@@ -217,7 +209,7 @@
             this.label4.ForeColor = System.Drawing.Color.Olive;
             this.label4.Location = new System.Drawing.Point(626, 91);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 16);
+            this.label4.Size = new System.Drawing.Size(49, 16);
             this.label4.TabIndex = 1;
             this.label4.Text = "Loại  :";
             this.label4.Click += new System.EventHandler(this.Label2_Click);
@@ -230,7 +222,7 @@
             this.label5.ForeColor = System.Drawing.Color.Olive;
             this.label5.Location = new System.Drawing.Point(626, 42);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(71, 16);
+            this.label5.Size = new System.Drawing.Size(70, 16);
             this.label5.TabIndex = 1;
             this.label5.Text = "Giá Bán :";
             this.label5.Click += new System.EventHandler(this.Label2_Click);
@@ -243,7 +235,7 @@
             this.label2.ForeColor = System.Drawing.Color.Olive;
             this.label2.Location = new System.Drawing.Point(9, 43);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 16);
+            this.label2.Size = new System.Drawing.Size(91, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Mã Món Ăn :";
             this.label2.Click += new System.EventHandler(this.Label2_Click);
@@ -275,7 +267,7 @@
             this.dtgvFood.Size = new System.Drawing.Size(1014, 354);
             this.dtgvFood.TabIndex = 4;
             this.dtgvFood.AutoSizeColumnsModeChanged += new System.Windows.Forms.DataGridViewAutoSizeColumnsModeEventHandler(this.dtgvFood_AutoSizeColumnsModeChanged);
-            this.dtgvFood.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvFood_CellClick_1);
+            //this.dtgvFood.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvFood_CellClick_1);
             // 
             // MaMonAn
             // 
@@ -309,6 +301,14 @@
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
             this.Column2.Width = 150;
+            // 
+            // cbo_category
+            // 
+            this.cbo_category.FormattingEnabled = true;
+            this.cbo_category.Location = new System.Drawing.Point(724, 87);
+            this.cbo_category.Name = "cbo_category";
+            this.cbo_category.Size = new System.Drawing.Size(121, 21);
+            this.cbo_category.TabIndex = 3;
             // 
             // frmThucDon
             // 
@@ -348,10 +348,10 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtFoodGiaBan;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtLoai;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaMonAn;
         private System.Windows.Forms.DataGridViewTextBoxColumn LoaiMA;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.ComboBox cbo_category;
     }
 }
