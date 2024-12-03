@@ -15,14 +15,28 @@ namespace WindowsFormsApp1
     {
         private int tableAmount = 10; // Default value
         private const string binaryFile = "tableData.bin";
+        //private frmTableDetails _frmTableDetails;
+        private ThucDon _thucDon;
+        private DanhMucThucDon _danhMucThucDon;
+        private Panel _panel;
 
         public frmBanAn()//load firm bàn ăn
         {
             InitializeComponent();
             LoadTableAmount();
+            createMainPanel();
             InitializeTableList();
         }
+         public void createMainPanel()
+        {
+            _panel = new Panel
+            {
+                Dock = DockStyle.Fill,
+                Padding = new Padding(10),
 
+            };
+            this.Controls.Add(_panel);
+        }
         
         //load tableAmount từ file binary nếu đã có file
         private void LoadTableAmount()
@@ -73,16 +87,16 @@ namespace WindowsFormsApp1
             InitializeTableList();
         }
 
-        public void InitializeTableList()//gọi giao diện 
+        public void InitializeTableList()
         {
-            // xoa flow layer panel cũ nếu đã tồn tại
-            var existingPanel = this.Controls.OfType<FlowLayoutPanel>().FirstOrDefault();
+            // Check if the FlowLayoutPanel exists, if yes, remove it.
+            var existingPanel = _panel.Controls.OfType<FlowLayoutPanel>().FirstOrDefault();
             if (existingPanel != null)
             {
-                this.Controls.Remove(existingPanel);
+                _panel.Controls.Remove(existingPanel);  // Removing the previous FlowLayoutPanel
             }
 
-            // tạo flow layer panel mới
+            // Create a new FlowLayoutPanel to display buttons for tables
             FlowLayoutPanel flowLayoutPanel = new FlowLayoutPanel
             {
                 Dock = DockStyle.Fill,
@@ -91,10 +105,11 @@ namespace WindowsFormsApp1
                 WrapContents = true // Allow buttons to wrap naturally
             };
 
-            // Add the FlowLayoutPanel to the control
-            this.Controls.Add(flowLayoutPanel);
+            // Clear the current contents of _panel before adding the new flowLayoutPanel
+            _panel.Controls.Clear();
+            _panel.Controls.Add(flowLayoutPanel);  // Add the new flowLayoutPanel to the panel
 
-            // Dynamically create buttons for tables
+            // Dynamically create buttons for each table
             for (int i = 1; i <= tableAmount; i++)
             {
                 int tableNumber = i; // Capture the current table number
@@ -109,24 +124,36 @@ namespace WindowsFormsApp1
                 // Add click event to load table details
                 tableButton.Click += (s, e) =>
                 {
-                    //_mainForm.LoadControl(new TableDetailsControl(_mainForm, tableNumber));
+                    _panel.Controls.Clear();  // Clear the current content (table buttons)
+
+                    // Create a new TableDetailsControl
+                    var tableDetailControl = new UCTableDetails();
+                    tableDetailControl.InitializeTableDetails(tableNumber, _thucDon, _danhMucThucDon);
+
+                    // Add the TableDetailsControl to the FlowLayoutPanel
+                   _panel.Controls.Add(tableDetailControl);
+                    tableDetailControl.Dock = DockStyle.Fill;
+
+                    // Perform layout to ensure TableDetailsControl is correctly sized and laid out
+                    _panel.PerformLayout();
                 };
 
-                flowLayoutPanel.Controls.Add(tableButton);
+                flowLayoutPanel.Controls.Add(tableButton);  // Add table button to the flowLayoutPanel
             }
 
-            // Force layout recalculation
+            // Force layout recalculation (for FlowLayoutPanel)
             flowLayoutPanel.PerformLayout();
 
-            // Add a buffer to the scrollable area 
+            // Optional: Adjust the AutoScrollMinSize for the FlowLayoutPanel
             flowLayoutPanel.AutoScrollMinSize = new Size(
                 flowLayoutPanel.ClientSize.Width,
                 flowLayoutPanel.DisplayRectangle.Height
             );
 
-            // Ensure the last button is visible
+            // Ensure the last button is visible by scrolling into view
             flowLayoutPanel.ScrollControlIntoView(flowLayoutPanel.Controls[flowLayoutPanel.Controls.Count - 1]);
         }
+
 
         private void btn_editTableLayout_Click(object sender, EventArgs e)
         {

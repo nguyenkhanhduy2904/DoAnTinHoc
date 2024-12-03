@@ -9,7 +9,7 @@ namespace WindowsFormsApp1
     [Serializable]
 
 
-    internal class ThucDon
+    public class ThucDon
     {
         public Dictionary<int, string> foodCategory = new Dictionary<int, string>()
         {
@@ -26,6 +26,7 @@ namespace WindowsFormsApp1
             {9, "Pork" },
             {10,"Chicken" },
             {11,"Vegan" },
+            {12, "Pie" }
 
 
 

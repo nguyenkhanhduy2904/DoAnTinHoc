@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|c:\\users\\asus\\source\\repos\\doantinhoc\\windowsformsapp1\\frmthucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmthucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\frmthucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmthucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\thucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\thucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\frmthucdon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmthucdon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\frmmainmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmmainmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|c:\\users\\asus\\source\\repos\\doantinhoc\\windowsformsapp1\\uctabledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\uctabledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\danhmucthucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\danhmucthucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\frmmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\thucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\thucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\frmmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\frmtabledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmtabledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\uctabledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\uctabledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\frmbanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,12 +27,36 @@
       "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmbanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\inputbox_tablenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\inputbox_tablenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\frmthucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmthucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\frmthucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmthucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\inputbox_tablenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\inputbox_tablenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\frmthucdon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmthucdon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\frmmainmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmmainmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\frmmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\frmmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,8 +82,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
@@ -87,19 +95,42 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmThucDon.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\frmThucDon.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\frmThucDon.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\frmThucDon.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\frmThucDon.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAAAFwAAAA2AAAAAAAAAA==",
+              "Title": "UCTableDetails.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\UCTableDetails.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\UCTableDetails.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\UCTableDetails.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\UCTableDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T03:10:32.835Z",
+              "WhenOpened": "2024-12-03T10:52:17.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "UCTableDetails.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\UCTableDetails.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\UCTableDetails.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\UCTableDetails.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\UCTableDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:51:50.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmThucDon.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\frmThucDon.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\frmThucDon.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\frmThucDon.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\frmThucDon.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAADYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:10:32.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "frmThucDon.Designer.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\frmThucDon.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\frmThucDon.Designer.cs",
@@ -111,42 +142,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "frmBanAn.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\frmBanAn.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\frmBanAn.cs",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\frmBanAn.cs",
               "RelativeToolTip": "WindowsFormsApp1\\frmBanAn.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAACUAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwIEAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T17:18:52.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "frmTableDetails.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\frmTableDetails.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\frmTableDetails.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\frmTableDetails.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp1\\frmTableDetails.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T06:32:35.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "InputBox_tableNumber.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\InputBox_tableNumber.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\InputBox_tableNumber.cs",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\InputBox_tableNumber.cs",
               "RelativeToolTip": "WindowsFormsApp1\\InputBox_tableNumber.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAqwDIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T03:41:40.347Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "frmThucDon.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\frmThucDon.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\frmThucDon.cs",
@@ -157,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "frmMainMenu.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\frmMainMenu.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\frmMainMenu.cs",
@@ -169,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "frmMainMenu.Designer.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\frmMainMenu.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\frmMainMenu.Designer.cs",
@@ -181,19 +201,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "frmHoaDon.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\frmHoaDon.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\frmHoaDon.cs",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\frmHoaDon.cs",
               "RelativeToolTip": "WindowsFormsApp1\\frmHoaDon.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T17:19:43.91Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "frmMainMenu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\frmMainMenu.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\frmMainMenu.cs",
@@ -204,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\Program.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Program.cs",
@@ -222,13 +242,14 @@
               "RelativeDocumentMoniker": "WindowsFormsApp1\\ThucDon.cs",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\ThucDon.cs",
               "RelativeToolTip": "WindowsFormsApp1\\ThucDon.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAowFIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwBwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T17:18:36.284Z"
+              "WhenOpened": "2024-11-27T17:18:36.284Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "frmHoaDon.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\frmHoaDon.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\frmHoaDon.cs",
@@ -239,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "frmBanAn.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\frmBanAn.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\frmBanAn.cs",
@@ -250,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "TaiKhoanKhach.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\TaiKhoanKhach.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\TaiKhoanKhach.cs",
@@ -262,19 +283,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "DanhMucThucDon.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\DanhMucThucDon.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\DanhMucThucDon.cs",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\DanhMucThucDon.cs",
               "RelativeToolTip": "WindowsFormsApp1\\DanhMucThucDon.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAiwBYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T08:42:17.485Z"
+              "WhenOpened": "2024-11-27T08:42:17.485Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "DanhMucTaiKhoanKhach.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\DanhMucTaiKhoanKhach.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\DanhMucTaiKhoanKhach.cs",
