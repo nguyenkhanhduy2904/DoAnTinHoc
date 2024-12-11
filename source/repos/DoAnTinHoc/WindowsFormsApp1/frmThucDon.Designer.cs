@@ -36,6 +36,7 @@
             this.btnFoodDelete = new System.Windows.Forms.Button();
             this.btnFoodAdd = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.cbo_category = new System.Windows.Forms.ComboBox();
             this.txtFoodTen = new System.Windows.Forms.TextBox();
             this.txtFoodGiaBan = new System.Windows.Forms.TextBox();
             this.txtFoodMa = new System.Windows.Forms.TextBox();
@@ -45,11 +46,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dtgvFood = new System.Windows.Forms.DataGridView();
-            this.MaMonAn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.LoaiMA = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cbo_category = new System.Windows.Forms.ComboBox();
+            this.btn_add_category = new System.Windows.Forms.Button();
+            this.btn_del_category = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvFood)).BeginInit();
@@ -150,6 +148,8 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.btn_del_category);
+            this.panel2.Controls.Add(this.btn_add_category);
             this.panel2.Controls.Add(this.cbo_category);
             this.panel2.Controls.Add(this.txtFoodTen);
             this.panel2.Controls.Add(this.txtFoodGiaBan);
@@ -165,6 +165,14 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1014, 147);
             this.panel2.TabIndex = 0;
+            // 
+            // cbo_category
+            // 
+            this.cbo_category.FormattingEnabled = true;
+            this.cbo_category.Location = new System.Drawing.Point(724, 87);
+            this.cbo_category.Name = "cbo_category";
+            this.cbo_category.Size = new System.Drawing.Size(121, 21);
+            this.cbo_category.TabIndex = 3;
             // 
             // txtFoodTen
             // 
@@ -253,12 +261,8 @@
             // 
             // dtgvFood
             // 
+            this.dtgvFood.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgvFood.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvFood.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.MaMonAn,
-            this.LoaiMA,
-            this.Column1,
-            this.Column2});
             this.dtgvFood.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgvFood.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dtgvFood.Location = new System.Drawing.Point(0, 147);
@@ -267,48 +271,26 @@
             this.dtgvFood.Size = new System.Drawing.Size(1014, 354);
             this.dtgvFood.TabIndex = 4;
             this.dtgvFood.AutoSizeColumnsModeChanged += new System.Windows.Forms.DataGridViewAutoSizeColumnsModeEventHandler(this.dtgvFood_AutoSizeColumnsModeChanged);
-            //this.dtgvFood.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvFood_CellClick_1);
             // 
-            // MaMonAn
+            // btn_add_category
             // 
-            this.MaMonAn.DataPropertyName = "MaMonAn";
-            this.MaMonAn.HeaderText = "Mã Món Ăn";
-            this.MaMonAn.Name = "MaMonAn";
-            this.MaMonAn.ReadOnly = true;
-            this.MaMonAn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.MaMonAn.Width = 200;
+            this.btn_add_category.Location = new System.Drawing.Point(851, 85);
+            this.btn_add_category.Name = "btn_add_category";
+            this.btn_add_category.Size = new System.Drawing.Size(51, 23);
+            this.btn_add_category.TabIndex = 4;
+            this.btn_add_category.Text = "Thêm";
+            this.btn_add_category.UseVisualStyleBackColor = true;
+            this.btn_add_category.Click += new System.EventHandler(this.btn_add_category_Click);
             // 
-            // LoaiMA
+            // btn_del_category
             // 
-            this.LoaiMA.DataPropertyName = "LoaiMonAn";
-            this.LoaiMA.HeaderText = "Loại Món Ăn";
-            this.LoaiMA.Name = "LoaiMA";
-            this.LoaiMA.ReadOnly = true;
-            this.LoaiMA.Width = 220;
-            // 
-            // Column1
-            // 
-            this.Column1.DataPropertyName = "TenMonAn";
-            this.Column1.HeaderText = "Tên Món Ăn";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Width = 400;
-            // 
-            // Column2
-            // 
-            this.Column2.DataPropertyName = "GiaBan";
-            this.Column2.HeaderText = "Giá Bán ";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            this.Column2.Width = 150;
-            // 
-            // cbo_category
-            // 
-            this.cbo_category.FormattingEnabled = true;
-            this.cbo_category.Location = new System.Drawing.Point(724, 87);
-            this.cbo_category.Name = "cbo_category";
-            this.cbo_category.Size = new System.Drawing.Size(121, 21);
-            this.cbo_category.TabIndex = 3;
+            this.btn_del_category.Location = new System.Drawing.Point(851, 114);
+            this.btn_del_category.Name = "btn_del_category";
+            this.btn_del_category.Size = new System.Drawing.Size(51, 23);
+            this.btn_del_category.TabIndex = 5;
+            this.btn_del_category.Text = "Xoá";
+            this.btn_del_category.UseVisualStyleBackColor = true;
+            this.btn_del_category.Click += new System.EventHandler(this.btn_del_category_Click);
             // 
             // frmThucDon
             // 
@@ -348,10 +330,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtFoodGiaBan;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MaMonAn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn LoaiMA;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.ComboBox cbo_category;
+        private System.Windows.Forms.Button btn_add_category;
+        private System.Windows.Forms.Button btn_del_category;
     }
 }

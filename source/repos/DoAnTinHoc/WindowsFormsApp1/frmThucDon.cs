@@ -10,14 +10,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace WindowsFormsApp1
 {
+    [Serializable]
 
 
     public partial class frmThucDon : Form
     {
         private DanhMucThucDon dmthucdon = new DanhMucThucDon();
         private ThucDon _thucDon;
+        
+
+        private string dictionaryBinaryFile = "dictionary.dat";
         
         ThucDon produccurrent = new ThucDon();
         public frmThucDon()
@@ -83,50 +88,32 @@ namespace WindowsFormsApp1
 
         private void HienThiDanhSachThucDon(List<ThucDon> TD, DataGridView dgv)
         {
-            
-            // Bind the data source to the DataGridView
+            // Unbind the DataGridView to avoid conflicts
+            dgv.DataSource = null;
+
+            // Bind the new data
             dgv.DataSource = TD.ToList();
-            dgv.Columns["LoaiMA"].Visible = false;
 
-
-            // Add a new column for the category name
-            if (!dgv.Columns.Contains("CategoryName"))
+            // Ensure the "LoaiMA" column is hidden
+            if (dgv.Columns.Contains("LoaiMonAn") )
             {
-                DataGridViewTextBoxColumn categoryColumn = new DataGridViewTextBoxColumn();
-                categoryColumn.HeaderText = "Category Name";
-                categoryColumn.Name = "CategoryName";
-                dgv.Columns.Add(categoryColumn);
-                categoryColumn.DisplayIndex = 1;
+                dgv.Columns["LoaiMonAn"].Visible = false;
+               
+            }
+            if(dgv.Columns.Contains("LoaiMA"))
+            {
+                dgv.Columns["LoaiMA"].Visible = false;
             }
 
-            // Populate the new column with category names based on the LoaiMA key
-            foreach (DataGridViewRow row in dgv.Rows)
+            if (dgv.Columns.Contains("LoaiMA_toString"))
             {
-                if (row.IsNewRow) continue; // Skip the new row placeholder
-
-                // Get the LoaiMA value from the corresponding column
-                if (row.Cells["LoaiMA"] != null && row.Cells["LoaiMA"].Value != null)
-                {
-                    int loaiMAKey;
-                    if (int.TryParse(row.Cells["LoaiMA"].Value.ToString(), out loaiMAKey))
-                    {
-                        // Map the key to the category name
-                        if (_thucDon.foodCategory.ContainsKey(loaiMAKey))
-                        {
-                            row.Cells["CategoryName"].Value = _thucDon.foodCategory[loaiMAKey];
-                        }
-                        else
-                        {
-                            row.Cells["CategoryName"].Value = "Unknown Category"; // Fallback for invalid keys
-                        }
-                    }
-                    else
-                    {
-                        row.Cells["CategoryName"].Value = "Invalid Key"; // Handle non-integer keys gracefully
-                    }
-                }
+                dgv.Columns["LoaiMA_toString"].HeaderText = "Loại Món Ăn ";
+                dgv.Columns["LoaiMA_toString"].DisplayIndex = 1;
             }
+
+            
         }
+
 
 
 
@@ -164,11 +151,12 @@ namespace WindowsFormsApp1
 
         private void btnFoodEdit_Click(object sender, EventArgs e)
         {
-            produccurrent.MaMonAn = txtFoodMa.Text.ToString();
-            produccurrent.TenMonAn = txtFoodTen.Text.ToString();
-            if (cbo_category.SelectedIndex >= 0) 
+            produccurrent.MaMonAn = txtFoodMa.Text;
+            produccurrent.TenMonAn = txtFoodTen.Text;
+            if(cbo_category.SelectedValue != null)
             {
-                produccurrent.LoaiMonAn = cbo_category.SelectedIndex;
+                int selectKey = (int)cbo_category.SelectedValue;
+                produccurrent.LoaiMonAn = selectKey;
             }
             else
             {
@@ -226,24 +214,29 @@ namespace WindowsFormsApp1
         {
             try
             {
-                using (FileStream fs = new FileStream(tenFile, FileMode.Create))
+                string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), tenFile);
+                if (!File.Exists(filePath))
+                {
+                    using (FileStream fs = File.Create(filePath)) { } // Create an empty file
+                    dmthucdon.DSThucDon = new List<ThucDon>(); // Initialize with an empty list
+                    return true; // Return true to indicate the file was successfully created
+                }
+                using (FileStream fs = new FileStream(filePath, FileMode.Create))
                 {
                     BinaryFormatter bf = new BinaryFormatter();
                     bf.Serialize(fs, dmthucdon.DSThucDon);
-
-                    return true;
                 }
-               
-
+                return true;
             }
-            
             catch (Exception ex)
             {
-                MessageBox.Show($"Error Type: {ex.GetType().Name}\nMessage: {ex.Message}",
+                MessageBox.Show($"Error Type: {ex.GetType().Name}\nMessage: {ex.Message}\nStack Trace: {ex.StackTrace}",
                                 "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
+
+
 
         private void btnFoodSave_Click(object sender, EventArgs e)
         {
@@ -258,28 +251,35 @@ namespace WindowsFormsApp1
         {
             try
             {
-                FileStream fs = new FileStream(tenFile, FileMode.Open);
-                BinaryFormatter bf = new BinaryFormatter();
-                dmthucdon.DSThucDon = (List<ThucDon>)bf.Deserialize(fs);
-                fs.Close();
+                string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), tenFile);
+                using (FileStream fs = new FileStream(filePath, FileMode.Open))
+                {
+                    BinaryFormatter bf = new BinaryFormatter();
+                    dmthucdon.DSThucDon = (List<ThucDon>)bf.Deserialize(fs);
+                }
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                MessageBox.Show($"Error Type: {ex.GetType().Name}\nMessage: {ex.Message}\nStack Trace: {ex.StackTrace}",
+                                "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
 
+
         private void frmThucDon_Load(object sender, EventArgs e)
         {
-            cbo_category.DataSource = new BindingSource(_thucDon.foodCategory, null);
+            cbo_category.DataSource = new BindingSource(ThucDon.foodCategory, null);
             cbo_category.DisplayMember = "Value";
             cbo_category.ValueMember = "Key";
 
             dmthucdon = new DanhMucThucDon();
             if (Doc("dmThucDon.DSThucDon.dat") == true)
             {
+
                 HienThiDanhSachThucDon(dmthucdon.DSThucDon, dtgvFood);
+                
             }
             else
                 MessageBox.Show("Không Đọc Được dữ liệu !!!", "Thông Báo", MessageBoxButtons.OK);
@@ -290,6 +290,67 @@ namespace WindowsFormsApp1
             Application.Exit();
         }
 
-       
+        private void btn_add_category_Click(object sender, EventArgs e)
+        {
+            string input = InputBox.Show("Enter new category:");
+
+            // Check for empty input
+            if (string.IsNullOrWhiteSpace(input))
+            {
+                MessageBox.Show("Category cannot be empty");
+                return;
+            }
+
+            // Check if category already exists
+            if (ThucDon.foodCategory.ContainsValue(input))
+            {
+                MessageBox.Show("Already exist");
+                return;
+            }
+
+            // Add new category to the dictionary
+            ThucDon.foodCategoryAmount++;
+            ThucDon.foodCategory.Add(ThucDon.foodCategoryAmount, input);
+            
+
+            
+
+            // Save the updated dictionary to file
+            ThucDon.SaveDictionary();
+
+            // Reload the dictionary to make sure the new data is reflected
+            ThucDon.LoadDictionary();
+
+            // Update the ComboBox data source
+            cbo_category.DataSource = new BindingSource(ThucDon.foodCategory, null);
+            cbo_category.DisplayMember = "Value";
+            cbo_category.ValueMember = "Key";
+        }
+
+        private void btn_del_category_Click(object sender, EventArgs e)
+        {
+            if (ThucDon.foodCategory.Count == 1)
+            {
+                MessageBox.Show("Can not delete the last item of the catgory", "Category cannot be empty", MessageBoxButtons.OK);
+                return;
+            }
+
+
+            var selectedCategory = ListBoxDialog.Show("Choose category", ThucDon.foodCategory);
+
+            if (!selectedCategory.Equals(default(KeyValuePair<int, string>)))
+            {
+                MessageBox.Show($"{selectedCategory.Value} has been deleted");
+                ThucDon.foodCategory.Remove(selectedCategory.Key);
+                
+
+                ThucDon.SaveDictionary();
+                ThucDon.LoadDictionary();
+                cbo_category.DataSource = new BindingSource(ThucDon.foodCategory, null);
+                cbo_category.DisplayMember = "Value";
+                cbo_category.ValueMember = "Key";
+                return;
+            }
+        }
     }
 }

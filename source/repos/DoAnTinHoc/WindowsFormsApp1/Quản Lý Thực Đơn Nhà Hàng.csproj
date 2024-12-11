@@ -53,6 +53,9 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DanhMucTaiKhoanKhach.cs" />
     <Compile Include="DanhMucThucDon.cs" />
     <Compile Include="frmBanAn.cs">

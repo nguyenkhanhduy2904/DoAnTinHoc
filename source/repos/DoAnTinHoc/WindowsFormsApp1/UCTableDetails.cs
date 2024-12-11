@@ -23,12 +23,15 @@ namespace WindowsFormsApp1//TO DO: Fix the layoout
 
 
 
+
         public void InitializeTableDetails(int tableNumber, ThucDon thucDon, DanhMucThucDon dmThucDon)
         {
             this.Controls.Clear();
 
-            // Bill ListBox
-            ListBox billListBox = new ListBox
+            // Assign incoming data
+            _thucDon = thucDon ?? new ThucDon();
+            _danhMucThucDon = dmThucDon ?? new DanhMucThucDon();
+            System.Windows.Forms.ListBox billListBox = new System.Windows.Forms.ListBox
             {
                 Width = 200,
                 Height = 400,
@@ -37,48 +40,56 @@ namespace WindowsFormsApp1//TO DO: Fix the layoout
                 BorderStyle = BorderStyle.FixedSingle,
                 SelectionMode = SelectionMode.MultiExtended
             };
-            billListBox.Items.AddRange(new object[] { "1", "2", "3" });
+
             this.Controls.Add(billListBox);
+
+            // Main TableLayoutPanel for organizing controls
+            TableLayoutPanel mainLayout = new TableLayoutPanel
+            {
+                Dock = DockStyle.Fill,
+                ColumnCount = 2,
+                RowCount = 2
+            };
+            mainLayout.ColumnStyles.Add(new ColumnStyle(SizeType.AutoSize));
+            mainLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
+            mainLayout.RowStyles.Add(new RowStyle(SizeType.Absolute, 40)); // For the table title
+            mainLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 100)); // For category and food panels
+            this.Controls.Add(mainLayout);
 
             // Table Title
             Label tableTitle = new Label
             {
                 Text = $"Table {tableNumber}",
                 Font = new Font("Arial", 16, FontStyle.Bold),
-                Dock = DockStyle.Top,
+                Dock = DockStyle.Fill,
                 TextAlign = ContentAlignment.MiddleCenter,
                 Height = 40
             };
-            this.Controls.Add(tableTitle);
-
-            // Assign incoming data
-            _thucDon = thucDon ?? new ThucDon();
-            _danhMucThucDon = dmThucDon ?? new DanhMucThucDon();
+            mainLayout.Controls.Add(tableTitle, 0, 0);
+            mainLayout.SetColumnSpan(tableTitle, 2); // Span across both columns
 
             // Category Panel
             FlowLayoutPanel categoryPanel = new FlowLayoutPanel
             {
-                Dock = DockStyle.Left,
+                Dock = DockStyle.Fill,
                 AutoSize = true,
                 FlowDirection = FlowDirection.TopDown,
                 AutoScroll = true,
-                Width = 150,
                 WrapContents = false
             };
-            this.Controls.Add(categoryPanel);
+            mainLayout.Controls.Add(categoryPanel, 0, 1);
 
             // Food Items Panel
             FlowLayoutPanel foodItemsPanel = new FlowLayoutPanel
             {
                 Dock = DockStyle.Fill,
-                AutoSize = false,
-                FlowDirection = FlowDirection.TopDown,
-                AutoScroll = true
+                AutoScroll = true,
+                FlowDirection = FlowDirection.TopDown
             };
-            this.Controls.Add(foodItemsPanel);
+            mainLayout.Controls.Add(foodItemsPanel, 1, 1);
 
             // Generate Category Buttons
-            foreach (var category in _thucDon.foodCategory)
+            foreach (var category in ThucDon.foodCategory)
             {
                 Button categoryButton = new Button
                 {
@@ -105,6 +116,9 @@ namespace WindowsFormsApp1//TO DO: Fix the layoout
                             Height = 100
                         };
                         foodItemsPanel.Controls.Add(itemButton);
+                        var currentItem = item;
+                        itemButton.Click += (sender1, e1) => billListBox.Items.Add(item.TenMonAn);
+
                     }
 
                     if (!filteredItems.Any())
@@ -112,10 +126,12 @@ namespace WindowsFormsApp1//TO DO: Fix the layoout
                         MessageBox.Show($"No items found for category: {category.Value}", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 };
-
-                
             }
+
+            // Optional: Bill ListBox
+            
         }
+
 
 
 
