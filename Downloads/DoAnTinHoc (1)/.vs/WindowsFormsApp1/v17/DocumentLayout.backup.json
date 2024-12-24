@@ -1,0 +1,397 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DoAnTinHoc (1)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\frmthucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmthucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\frmtaikhoankhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmtaikhoankhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\taikhoankhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\taikhoankhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|d:\\doantinhoc (1)\\windowsformsapp1\\danhmuctaikhoankhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\danhmuctaikhoankhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\frmthucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmthucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\frmtaikhoankhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmtaikhoankhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\frmmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|d:\\doantinhoc (1)\\windowsformsapp1\\frmbanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmbanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\thucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\thucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\danhmucthucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\danhmucthucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\uctabledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\uctabledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\listhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\listhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\frmbanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmbanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\frmmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\uctabledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\uctabledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\listbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\listbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\inputbox_tablenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\inputbox_tablenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\frmmainmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\frmmainmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|D:\\DoAnTinHoc (1)\\windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE5A81E1-D244-4B24-BA0A-0957AB32164F}|WindowsFormsApp1\\Qu\u1EA3n L\u00FD Th\u1EF1c \u0110\u01A1n Nh\u00E0 H\u00E0ng.csproj|solutionrelative:windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmHoaDon.cs [Design]",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmHoaDon.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\frmHoaDon.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmHoaDon.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\frmHoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:18:23.327Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmTaiKhoanKhach.cs [Design]",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmTaiKhoanKhach.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\frmTaiKhoanKhach.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmTaiKhoanKhach.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\frmTaiKhoanKhach.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T05:16:22.435Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DanhMucTaiKhoanKhach.cs",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\DanhMucTaiKhoanKhach.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\DanhMucTaiKhoanKhach.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\DanhMucTaiKhoanKhach.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\DanhMucTaiKhoanKhach.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAowFkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:42:14.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaiKhoanKhach.cs",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\TaiKhoanKhach.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\TaiKhoanKhach.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\TaiKhoanKhach.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\TaiKhoanKhach.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:42:38.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmThucDon.cs",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmThucDon.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\frmThucDon.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmThucDon.cs*",
+              "RelativeToolTip": "WindowsFormsApp1\\frmThucDon.cs*",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAuwNkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:10:32.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmThucDon.cs [Design]",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmThucDon.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\frmThucDon.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmThucDon.cs [Design]*",
+              "RelativeToolTip": "WindowsFormsApp1\\frmThucDon.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:10:27.034Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmTaiKhoanKhach.cs",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmTaiKhoanKhach.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\frmTaiKhoanKhach.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmTaiKhoanKhach.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\frmTaiKhoanKhach.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAUwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T05:16:28.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmHoaDon.cs",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmHoaDon.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\frmHoaDon.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmHoaDon.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\frmHoaDon.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:19:43.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmMainMenu.cs [Design]",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmMainMenu.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\frmMainMenu.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmMainMenu.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\frmMainMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:18:57.613Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InputBox_tableNumber.cs",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\InputBox_tableNumber.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\InputBox_tableNumber.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\InputBox_tableNumber.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\InputBox_tableNumber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:41:40.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmBanAn.cs",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmBanAn.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\frmBanAn.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmBanAn.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\frmBanAn.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAiwFsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:18:52.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ThucDon.cs",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\ThucDon.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\ThucDon.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\ThucDon.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\ThucDon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:18:36.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmBanAn.cs [Design]",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmBanAn.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\frmBanAn.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmBanAn.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\frmBanAn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T10:03:40.084Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UCTableDetails.cs [Design]",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\UCTableDetails.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\UCTableDetails.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DoAnTinHoc\\WindowsFormsApp1\\UCTableDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:51:50.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ListBox.cs",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\ListBox.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\ListBox.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\ListBox.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\ListBox.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAqwBoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T19:35:59.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HoaDon.cs",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\HoaDon.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\HoaDon.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\HoaDon.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\HoaDon.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T04:32:15.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ListHoaDon.cs",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\ListHoaDon.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\ListHoaDon.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\ListHoaDon.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\ListHoaDon.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T18:46:36.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UCTableDetails.cs",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\UCTableDetails.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\UCTableDetails.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\UCTableDetails.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\UCTableDetails.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAAAOkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:52:17.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmMainMenu.cs",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmMainMenu.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\frmMainMenu.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmMainMenu.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\frmMainMenu.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAADgv10AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:19:09.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmMainMenu.Designer.cs",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmMainMenu.Designer.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\frmMainMenu.Designer.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\frmMainMenu.Designer.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\frmMainMenu.Designer.cs",
+              "ViewState": "AgIAACoBAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:56:36.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\Program.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Program.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\Program.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:18:42.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DanhMucThucDon.cs",
+              "DocumentMoniker": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\DanhMucThucDon.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\DanhMucThucDon.cs",
+              "ToolTip": "D:\\DoAnTinHoc (1)\\WindowsFormsApp1\\DanhMucThucDon.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\DanhMucThucDon.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwGEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:42:17.485Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+D:\DoAN\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\DoAN\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\DoAN\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\DoAN\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\FontAwesome.Sharp.dll
+D:\DoAN\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmBanAn.resources
+D:\DoAN\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmHoaDon.resources
+D:\DoAN\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmTaiKhoanKhach.resources
+D:\DoAN\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmMainMenu.resources
+D:\DoAN\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\DoAN\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmThucDon.resources
+D:\DoAN\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Quản Lý Thực Đơn Nhà Hàng.csproj.GenerateResource.cache
+D:\DoAN\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Quản Lý Thực Đơn Nhà Hàng.csproj.CoreCompileInputs.cache
+D:\DoAN\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Quản Lý Thực Đơn Nhà Hàng.csproj.CopyComplete
+D:\DoAN\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\DoAN\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\Doanbackup\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Doanbackup\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Doanbackup\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Doanbackup\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\FontAwesome.Sharp.dll
+D:\Doanbackup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Quản Lý Thực Đơn Nhà Hàng.csprojAssemblyReference.cache
+D:\Doanbackup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmBanAn.resources
+D:\Doanbackup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmHoaDon.resources
+D:\Doanbackup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmTaiKhoanKhach.resources
+D:\Doanbackup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmMainMenu.resources
+D:\Doanbackup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Doanbackup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmThucDon.resources
+D:\Doanbackup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Quản Lý Thực Đơn Nhà Hàng.csproj.GenerateResource.cache
+D:\Doanbackup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Quản Lý Thực Đơn Nhà Hàng.csproj.CoreCompileInputs.cache
+D:\Doanbackup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Quản Lý Thực Đơn Nhà Hàng.csproj.CopyComplete
+D:\Doanbackup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Doanbackup\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\obj\Debug\Quản Lý Thực Đơn Nhà Hàng.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmBanAn.resources
+C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmHoaDon.resources
+C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmTaiKhoanKhach.resources
+C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmMainMenu.resources
+C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmThucDon.resources
+C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\obj\Debug\Quản Lý Thực Đơn Nhà Hàng.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\obj\Debug\Quản Lý Thực Đơn Nhà Hàng.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\obj\Debug\Qu_n L_ .A7FE00A6.Up2Date
+C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\ASUS\source\repos\WindowsFormsApp1 (1)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\Quản Lý Thực Đơn Nhà Hàng.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmBanAn.resources
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmHoaDon.resources
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmTaiKhoanKhach.resources
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmMainMenu.resources
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmThucDon.resources
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\Quản Lý Thực Đơn Nhà Hàng.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\Quản Lý Thực Đơn Nhà Hàng.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\Qu_n L_ .A7FE00A6.Up2Date
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UCTableDetails.resources
+D:\DoAnTinHoc (1)\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\DoAnTinHoc (1)\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\DoAnTinHoc (1)\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\DoAnTinHoc (1)\WindowsFormsApp1\bin\Debug\FontAwesome.Sharp.dll
+D:\DoAnTinHoc (1)\WindowsFormsApp1\obj\Debug\Quản Lý Thực Đơn Nhà Hàng.csproj.AssemblyReference.cache
+D:\DoAnTinHoc (1)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmBanAn.resources
+D:\DoAnTinHoc (1)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmHoaDon.resources
+D:\DoAnTinHoc (1)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmTaiKhoanKhach.resources
+D:\DoAnTinHoc (1)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmMainMenu.resources
+D:\DoAnTinHoc (1)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\DoAnTinHoc (1)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmThucDon.resources
+D:\DoAnTinHoc (1)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UCTableDetails.resources
+D:\DoAnTinHoc (1)\WindowsFormsApp1\obj\Debug\Quản Lý Thực Đơn Nhà Hàng.csproj.GenerateResource.cache
+D:\DoAnTinHoc (1)\WindowsFormsApp1\obj\Debug\Quản Lý Thực Đơn Nhà Hàng.csproj.CoreCompileInputs.cache
+D:\DoAnTinHoc (1)\WindowsFormsApp1\obj\Debug\Qu_n L_ .A7FE00A6.Up2Date
+D:\DoAnTinHoc (1)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\DoAnTinHoc (1)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
