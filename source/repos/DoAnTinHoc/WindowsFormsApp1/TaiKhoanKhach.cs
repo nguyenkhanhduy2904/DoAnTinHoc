@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace WindowsFormsApp1
 {
     [Serializable]
-    internal class TaiKhoanKhach
+    public class TaiKhoanKhach
     {
         private string maTK;
         private string tenTK;
@@ -73,7 +73,12 @@ namespace WindowsFormsApp1
         {
             get { return this.gioitinhTK; }
             set { this.gioitinhTK = value; }
-        } 
+        }
+
+        public override string ToString()
+        {
+            return tenTK.ToString();
+        }
     }
 }
 

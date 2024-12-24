@@ -36,6 +36,8 @@
             this.btnFoodDelete = new System.Windows.Forms.Button();
             this.btnFoodAdd = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btn_del_category = new System.Windows.Forms.Button();
+            this.btn_add_category = new System.Windows.Forms.Button();
             this.cbo_category = new System.Windows.Forms.ComboBox();
             this.txtFoodTen = new System.Windows.Forms.TextBox();
             this.txtFoodGiaBan = new System.Windows.Forms.TextBox();
@@ -46,8 +48,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dtgvFood = new System.Windows.Forms.DataGridView();
-            this.btn_add_category = new System.Windows.Forms.Button();
-            this.btn_del_category = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvFood)).BeginInit();
@@ -166,6 +166,26 @@
             this.panel2.Size = new System.Drawing.Size(1014, 147);
             this.panel2.TabIndex = 0;
             // 
+            // btn_del_category
+            // 
+            this.btn_del_category.Location = new System.Drawing.Point(851, 114);
+            this.btn_del_category.Name = "btn_del_category";
+            this.btn_del_category.Size = new System.Drawing.Size(51, 23);
+            this.btn_del_category.TabIndex = 5;
+            this.btn_del_category.Text = "Xoá";
+            this.btn_del_category.UseVisualStyleBackColor = true;
+            this.btn_del_category.Click += new System.EventHandler(this.btn_del_category_Click);
+            // 
+            // btn_add_category
+            // 
+            this.btn_add_category.Location = new System.Drawing.Point(851, 85);
+            this.btn_add_category.Name = "btn_add_category";
+            this.btn_add_category.Size = new System.Drawing.Size(51, 23);
+            this.btn_add_category.TabIndex = 4;
+            this.btn_add_category.Text = "Thêm";
+            this.btn_add_category.UseVisualStyleBackColor = true;
+            this.btn_add_category.Click += new System.EventHandler(this.btn_add_category_Click);
+            // 
             // cbo_category
             // 
             this.cbo_category.FormattingEnabled = true;
@@ -173,6 +193,7 @@
             this.cbo_category.Name = "cbo_category";
             this.cbo_category.Size = new System.Drawing.Size(121, 21);
             this.cbo_category.TabIndex = 3;
+            this.cbo_category.SelectedIndexChanged += new System.EventHandler(this.cbo_category_SelectedIndexChanged);
             // 
             // txtFoodTen
             // 
@@ -271,26 +292,6 @@
             this.dtgvFood.Size = new System.Drawing.Size(1014, 354);
             this.dtgvFood.TabIndex = 4;
             this.dtgvFood.AutoSizeColumnsModeChanged += new System.Windows.Forms.DataGridViewAutoSizeColumnsModeEventHandler(this.dtgvFood_AutoSizeColumnsModeChanged);
-            // 
-            // btn_add_category
-            // 
-            this.btn_add_category.Location = new System.Drawing.Point(851, 85);
-            this.btn_add_category.Name = "btn_add_category";
-            this.btn_add_category.Size = new System.Drawing.Size(51, 23);
-            this.btn_add_category.TabIndex = 4;
-            this.btn_add_category.Text = "Thêm";
-            this.btn_add_category.UseVisualStyleBackColor = true;
-            this.btn_add_category.Click += new System.EventHandler(this.btn_add_category_Click);
-            // 
-            // btn_del_category
-            // 
-            this.btn_del_category.Location = new System.Drawing.Point(851, 114);
-            this.btn_del_category.Name = "btn_del_category";
-            this.btn_del_category.Size = new System.Drawing.Size(51, 23);
-            this.btn_del_category.TabIndex = 5;
-            this.btn_del_category.Text = "Xoá";
-            this.btn_del_category.UseVisualStyleBackColor = true;
-            this.btn_del_category.Click += new System.EventHandler(this.btn_del_category_Click);
             // 
             // frmThucDon
             // 

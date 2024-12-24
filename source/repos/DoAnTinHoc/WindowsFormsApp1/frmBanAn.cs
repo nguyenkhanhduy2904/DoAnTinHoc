@@ -15,7 +15,7 @@ namespace WindowsFormsApp1
     {
         private int tableAmount = 10; // Default value
         private const string binaryFile = "tableData.bin";
-        //private frmTableDetails _frmTableDetails;
+        
         private ThucDon _thucDon;
         private DanhMucThucDon _danhMucThucDon;
         private Panel _panel;
@@ -25,7 +25,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
             LoadTableAmount();
             createMainPanel();
-            InitializeTableList();
+            ShowMainLayout();
         }
          public void createMainPanel()
         {
@@ -87,6 +87,19 @@ namespace WindowsFormsApp1
             InitializeTableList();
         }
 
+        public void UC_goBack(object sender, EventArgs e)
+        {
+            
+            InitializeComponent();
+            ShowMainLayout();
+        }
+
+        public void ShowMainLayout()
+        {
+            _panel.Controls.Clear(); // Clear current controls from the panel
+            InitializeTableList();   // Populate the panel with table buttons
+        }
+
         public void InitializeTableList()
         {
             // Check if the FlowLayoutPanel exists, if yes, remove it.
@@ -128,6 +141,7 @@ namespace WindowsFormsApp1
 
                     // Create a new TableDetailsControl
                     var tableDetailControl = new UCTableDetails();
+                    tableDetailControl.goBack += UC_goBack;
                     tableDetailControl.InitializeTableDetails(tableNumber, _thucDon, _danhMucThucDon);
 
                     // Add the TableDetailsControl to the FlowLayoutPanel

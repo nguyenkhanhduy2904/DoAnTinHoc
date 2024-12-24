@@ -20,7 +20,7 @@ namespace WindowsFormsApp1
     {
         private DanhMucThucDon dmthucdon = new DanhMucThucDon();
         private ThucDon _thucDon;
-        
+        private int selectedRowIndex = -1;
 
         private string dictionaryBinaryFile = "dictionary.dat";
         
@@ -28,6 +28,7 @@ namespace WindowsFormsApp1
         public frmThucDon()
         {
             InitializeComponent();
+            dtgvFood.CellClick += dtgvFood_CellClick;
             _thucDon = new ThucDon();
         }
 
@@ -151,65 +152,85 @@ namespace WindowsFormsApp1
 
         private void btnFoodEdit_Click(object sender, EventArgs e)
         {
-            produccurrent.MaMonAn = txtFoodMa.Text;
-            produccurrent.TenMonAn = txtFoodTen.Text;
-            if(cbo_category.SelectedValue != null)
+            // Ensure that a row is selected
+            if (selectedRowIndex == -1)
             {
-                int selectKey = (int)cbo_category.SelectedValue;
-                produccurrent.LoaiMonAn = selectKey;
-            }
-            else
-            {
-                MessageBox.Show("Hay chon loai mon an!!","Error!!",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show("Please select an item to edit.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            produccurrent.GiaBan = float.Parse(txtFoodGiaBan.Text.ToString());
-            HienThiDanhSachThucDon(dmthucdon.DSThucDon, dtgvFood);
-            MessageBox.Show("Đã Cập Nhật", "Thông báo", MessageBoxButtons.OK);
+            // Validate the food code (MaMonAn) and food name (TenMonAn)
+            if (string.IsNullOrWhiteSpace(txtFoodMa.Text) || string.IsNullOrWhiteSpace(txtFoodTen.Text))
+            {
+                MessageBox.Show("Please enter both food code and name!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Check if a valid category is selected
+            if (cbo_category.SelectedValue == null)
+            {
+                MessageBox.Show("Please select a food category!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Validate GiaBan (price) input
+            if (!float.TryParse(txtFoodGiaBan.Text, out float giaBan))
+            {
+                MessageBox.Show("Invalid price value!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Create the updated ThucDon object
+            ThucDon updatedThucDon = new ThucDon
+            {
+                MaMonAn = txtFoodMa.Text,
+                TenMonAn = txtFoodTen.Text,
+                LoaiMonAn = (int)cbo_category.SelectedValue,
+                GiaBan = giaBan
+            };
+
+            // Update the item at the selected index in the list
+            bool isUpdated = dmthucdon.Sua(updatedThucDon, selectedRowIndex);
+
+            if (isUpdated)
+            {
+                // Refresh the DataGridView to reflect the changes
+                HienThiDanhSachThucDon(dmthucdon.DSThucDon, dtgvFood);
+                MessageBox.Show("Food updated successfully!", "Notification", MessageBoxButtons.OK);
+            }
+            else
+            {
+                MessageBox.Show("Failed to update food. Please try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
+
+
 
         private void dtgvFood_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            //if (e.RowIndex != -1)
-            //{
-            //    produccurrent = (ThucDon)dtgvFood.Rows[e.RowIndex].DataBoundItem;
-            //    txtFoodMa.Text = produccurrent.MaMonAn.ToString();
-            //    txtFoodTen.Text = produccurrent.TenMonAn.ToString();
-            //    cbo_category.SelectedItem = produccurrent.LoaiMonAn.ToString();  // This should be set to the category name, not the integer
-            //    txtFoodGiaBan.Text = produccurrent.GiaBan.ToString();
-            //}
-
             // Ensure a valid row index is selected
             if (e.RowIndex != -1)
             {
-                // Loop through all columns and output their names to check
-                foreach (DataGridViewColumn column in dtgvFood.Columns)
-                {
-                    MessageBox.Show($"Column Name: {column.Name}");
-                }
+                selectedRowIndex = e.RowIndex;  // Set the selected index to the clicked row index
 
-                // Now, you can attempt to access the value
-                var categoryIndexCell = dtgvFood.Rows[e.RowIndex].Cells["LoaiMonAn"];
-                if (categoryIndexCell != null)
+                // Debugging output
+                MessageBox.Show("Row Index: " + selectedRowIndex);
+
+                // Populate text boxes and combo box with selected row's data
+                DataGridViewRow row = dtgvFood.Rows[e.RowIndex];
+                txtFoodMa.Text = row.Cells["MaMonAn"].Value.ToString();
+                txtFoodTen.Text = row.Cells["TenMonAn"].Value.ToString();
+                txtFoodGiaBan.Text = row.Cells["GiaBan"].Value.ToString();
+
+                var categoryIndex = row.Cells["LoaiMonAn"].Value;
+                if (categoryIndex != null)
                 {
-                    // This will show the actual value in the "LoaiMonAn" column for the clicked row
-                    var categoryIndex = categoryIndexCell.Value;
-                    MessageBox.Show($"Category Index: {categoryIndex}");
-                }
-                else
-                {
-                    MessageBox.Show("Column 'LoaiMonAn' not found.");
+                    cbo_category.SelectedValue = categoryIndex;
                 }
             }
-
-
-
-
-
-
-
         }
+
+
         private bool Luu(string tenFile)
         {
             try
@@ -247,7 +268,7 @@ namespace WindowsFormsApp1
             else
                 MessageBox.Show("Không Lưu Được !!!", "Thông Báo", MessageBoxButtons.OK);
         }
-        private bool Doc(string tenFile)
+        public bool Doc(string tenFile)
         {
             try
             {
@@ -351,6 +372,11 @@ namespace WindowsFormsApp1
                 cbo_category.ValueMember = "Key";
                 return;
             }
+        }
+
+        private void cbo_category_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //
         }
     }
 }

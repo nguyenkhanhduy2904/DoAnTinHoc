@@ -17,11 +17,36 @@ namespace WindowsFormsApp1
 
         public static int foodCategoryAmount;
 
+        static ThucDon()
+        {
+            // Initialize the dictionary using the method
+            InitializeDictionary();
+
+            // Ensure the dictionary is not null and contains at least one item
+            if (foodCategory == null)
+            {
+                foodCategory = new Dictionary<int, string>();
+            }
+
+            if (!foodCategory.ContainsKey(0))
+            {
+                foodCategory.Add(0, "Extra");
+            }
+
+            // Update the amount of categories
+            foodCategoryAmount = foodCategory.Keys.Any() ? foodCategory.Keys.Max() + 1 : 1;
+        }
+
+
+
+
         private string maMA;
         private string tenMA;
         private float giabanMA;
         private int loaiMA;
         private string loaiMA_toString;
+
+
 
         public ThucDon()
         {
@@ -121,7 +146,9 @@ namespace WindowsFormsApp1
             }
 
             // Update the foodCategoryAmount
-            foodCategoryAmount = foodCategory.Keys.Any() ? foodCategory.Keys.Max() + 1 : 1;
+            foodCategoryAmount = (foodCategory != null && foodCategory.Keys.Any())? foodCategory.Keys.Max() + 1 : 1;
+
+
         }
 
 
@@ -179,7 +206,7 @@ namespace WindowsFormsApp1
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error loading dictionary: {ex.Message}");
+                MessageBox.Show($"Error loading dictionary111: {ex.Message}");
             }
         }
     }

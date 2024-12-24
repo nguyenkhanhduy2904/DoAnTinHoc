@@ -18,9 +18,30 @@ namespace WindowsFormsApp1
         private DanhMucTaiKhoanKhach dmtk =new DanhMucTaiKhoanKhach();
         TaiKhoanKhach produccurrent = new TaiKhoanKhach();
         //private int vitri = -1;
+        private int selectedIndex = -1;
         public frmTaiKhoanKhach()
         {
             InitializeComponent();
+            dtgvAccount.CellClick +=  DtgvAccount_CellClick;
+            HienThiDanhSachTaiKhoanKhachHang(dmtk.DSTaiKhoanKhach, dtgvAccount);
+        }
+
+        private void DtgvAccount_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            MessageBox.Show(e.RowIndex.ToString());
+            if (e.RowIndex != -1)
+            {
+                selectedIndex = e.RowIndex;
+                produccurrent = (TaiKhoanKhach)dtgvAccount.Rows[e.RowIndex].DataBoundItem;
+                txtTenKH.Text = produccurrent.TenTK.ToString();
+                txtMaKH.Text = produccurrent.MaTK.ToString();
+                msksdtKH.Text = produccurrent.SDTTK.ToString();
+                txtDiaChiKH.Text = produccurrent.DiaChiTK.ToString();
+                dtpkNgaySinhTK.Value = produccurrent.NgaySinhTK;
+
+
+
+            }
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -47,7 +68,12 @@ namespace WindowsFormsApp1
         }
         private void HienThiDanhSachTaiKhoanKhachHang(List<TaiKhoanKhach> TK, DataGridView dgv)
         {
-            dgv.DataSource = TK.ToList();
+            dgv.DataSource = null;
+            if(TK!= null)
+            {
+                dgv.DataSource = TK.ToList();
+            }
+            
         }
         private void btnAccountDelete_Click(object sender, EventArgs e)
         {
@@ -79,35 +105,57 @@ namespace WindowsFormsApp1
         {
             try
             {
-                FileStream fs = new FileStream(tenFile, FileMode.Create);
-                BinaryFormatter bf = new BinaryFormatter();
-                dmtk.DSTaiKhoanKhach = (List<TaiKhoanKhach>)bf.Deserialize(fs);
-                fs.Close();
-                return true;
+                // Use 'using' statement for automatic resource management
+                using (FileStream fs = new FileStream(tenFile, FileMode.Create))
+                {
+                    BinaryFormatter bf = new BinaryFormatter();
+                    bf.Serialize(fs, dmtk.DSTaiKhoanKhach); // Serialize the list to the file
+                }
+
+                return true; // Return true if saving is successful
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return false;
+                MessageBox.Show($"Error saving file: {ex.Message}");
+                return false; // Return false if an exception occurs
             }
         }
+
+
+
         private bool Doc(string tenFile)
         {
             try
             {
-                FileStream fs = new FileStream(tenFile, FileMode.Open);
-                BinaryFormatter bf = new BinaryFormatter();
-                dmtk.DSTaiKhoanKhach = (List<TaiKhoanKhach>)bf.Deserialize(fs);
-                fs.Close();
+                // Check if the file exists; if not, create an empty file
+                if (!File.Exists(tenFile))
+                {
+                    using (FileStream fs = new FileStream(tenFile, FileMode.Create))
+                    {
+                        BinaryFormatter bf = new BinaryFormatter();
+                        bf.Serialize(fs, new List<TaiKhoanKhach>()); // Serialize an empty list
+                    }
+                }
+
+                // Open the file and deserialize its content
+                using (FileStream fs = new FileStream(tenFile, FileMode.Open))
+                {
+                    BinaryFormatter bf = new BinaryFormatter();
+                    dmtk.DSTaiKhoanKhach = (List<TaiKhoanKhach>)bf.Deserialize(fs);
+                }
+
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                MessageBox.Show($"Error reading file: {ex.Message}");
                 return false;
             }
         }
+
         private void btnAccountSave_Click(object sender, EventArgs e)
         {
-            if (LuuFile("dmthucdon.DSThucDon.dat") == true)
+            if (LuuFile("TKK.dat") == true)
             {
                 MessageBox.Show("Đã Lưu!!!", "Thông Báo", MessageBoxButtons.OK);
             }
@@ -117,12 +165,7 @@ namespace WindowsFormsApp1
         private void frmTaiKhoanKhach_Load(object sender, EventArgs e)
         {
             dmtk = new DanhMucTaiKhoanKhach();
-            if (Doc("dmThucDon.DSThucDon.dat") == true)
-            {
-               HienThiDanhSachTaiKhoanKhachHang(dmtk.DSTaiKhoanKhach,dtgvAccount);
-            }
-            else
-                MessageBox.Show("Không Đọc Được dữ liệu  !!!", "Thông Báo", MessageBoxButtons.OK);
+            
         }
         private void btnAccountExit_Click(object sender, EventArgs e)
         {
@@ -131,16 +174,8 @@ namespace WindowsFormsApp1
 
         private void dtgvAccount_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex != -1)
-            {
-                produccurrent = (TaiKhoanKhach)dtgvAccount.Rows[e.RowIndex].DataBoundItem;
-                txtTenKH.Text = produccurrent.TenTK.ToString();
-                txtMaKH.Text = produccurrent.MaTK.ToString();
-                txtDiaChiKH.Text = produccurrent.DiaChiTK.ToString();
-                dtpkNgaySinhTK.Value = produccurrent.NgaySinhTK;
-                
-               
-            }
+            
+           
         }
     }
 }

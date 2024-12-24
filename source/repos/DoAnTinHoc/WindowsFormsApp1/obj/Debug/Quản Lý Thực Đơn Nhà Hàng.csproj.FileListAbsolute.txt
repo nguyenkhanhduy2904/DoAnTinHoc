@@ -62,3 +62,4 @@ C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\Qu_n L_ .A7FE00
 C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UCTableDetails.resources
+C:\Users\ASUS\source\repos\DoAnTinHoc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HoaDonListBox.resources

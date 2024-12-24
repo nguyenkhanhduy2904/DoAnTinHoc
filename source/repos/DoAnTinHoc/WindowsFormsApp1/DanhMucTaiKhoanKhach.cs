@@ -1,19 +1,62 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing.Imaging;
+using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    internal class DanhMucTaiKhoanKhach
+    public class DanhMucTaiKhoanKhach
     {
         private List<TaiKhoanKhach> dsTaiKhoanKhach;
         public DanhMucTaiKhoanKhach()
         {
-            this.dsTaiKhoanKhach = new List<TaiKhoanKhach>();   
+            if (Doc("TKK.dat"))
+            {
+                MessageBox.Show($"Read success with {dsTaiKhoanKhach.Count} item");
+            }
+            if(dsTaiKhoanKhach == null)
+            {
+                dsTaiKhoanKhach = new List<TaiKhoanKhach>();
+            }
+
+            
         }
+
+        private bool Doc(string tenFile)
+        {
+            try
+            {
+                // Check if the file exists; if not, create an empty file
+                if (!File.Exists(tenFile))
+                {
+                    using (FileStream fs = new FileStream(tenFile, FileMode.Create))
+                    {
+                        BinaryFormatter bf = new BinaryFormatter();
+                        bf.Serialize(fs, new List<TaiKhoanKhach>()); // Serialize an empty list
+                    }
+                }
+
+                // Open the file and deserialize its content
+                using (FileStream fs = new FileStream(tenFile, FileMode.Open))
+                {
+                    BinaryFormatter bf = new BinaryFormatter();
+                    this.DSTaiKhoanKhach = (List<TaiKhoanKhach>)bf.Deserialize(fs);
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error reading file: {ex.Message}");
+                return false;
+            }
+        }
+
 
         public DanhMucTaiKhoanKhach(List<TaiKhoanKhach> dsTaiKhoanKhach)
         {
